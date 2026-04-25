@@ -445,3 +445,19 @@ footer {
   100% { transform: scale(1); }
 }
 }
+body::after {
+  content: "";
+  position: fixed;
+  width: 200%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(255,0,0,0.4), transparent);
+  top: 30%;
+  left: -50%;
+  animation: speedLine 3s linear infinite;
+  opacity: 0.2;
+}
+
+@keyframes speedLine {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(50%); }
+}
