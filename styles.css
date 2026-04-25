@@ -424,4 +424,24 @@ footer {
   .logo {
     height: 54px;
   }
+  /* ===== MEJORA LOGO HERO ===== */
+.hero-logo img {
+  max-width: 420px;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 0 25px rgba(255, 0, 0, 0.5));
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+/* efecto hover */
+.hero-logo img:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 35px rgba(255, 0, 0, 0.8));
+}
+  /* glow animado */
+@keyframes logoPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+  100% { transform: scale(1); }
+}
 }
