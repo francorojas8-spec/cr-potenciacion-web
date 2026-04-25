@@ -1,60 +1,166 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<title>CR Potenciación</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CR Potenciación | Turnos Online</title>
+  <meta name="description" content="CR Potenciación - Servicio integral de motos, quads, UTV, ATV y motos de agua en Santa Rosa, La Pampa." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+  <div class="bg"></div>
+  <div class="overlay"></div>
 
-<div class="bg"></div>
+  <header class="header">
+    <img src="logo.png" class="logo" alt="CR Potenciación" />
 
-<header>
-  <img src="logo.png" class="logo">
-  <a href="https://wa.me/5492954602193" target="_blank" class="btn">WhatsApp</a>
-</header>
+    <nav class="nav">
+      <a href="#servicios">Servicios</a>
+      <a href="#turnos">Turnos</a>
+      <a href="#ubicacion">Ubicación</a>
+      <a href="#opiniones">Opiniones</a>
+    </nav>
 
-<section class="hero">
-  <div class="left">
-    <h1>
-      TURNOS <br>
-      <span>ONLINE</span>
-    </h1>
+    <a class="whatsapp" href="https://wa.me/5492954602193" target="_blank">WhatsApp</a>
+  </header>
 
-    <p>
-      Servicio integral de motos, quads, UTV y ATV.
-      Diagnóstico por scanner, banco de pruebas e inyección electrónica.
-    </p>
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <span class="badge">Servicio Oficial Honda y CF Motos</span>
 
-    <div class="buttons">
-      <a href="https://wa.me/5492954602193" class="btn main">Solicitar turno</a>
-      <a href="https://instagram.com/crpotenciacion" target="_blank" class="btn ghost">@crpotenciacion</a>
-    </div>
-  </div>
+        <h1>Turnos <span>online</span></h1>
 
-  <div class="right">
-    <img src="logo.png" class="hero-logo">
-  </div>
-</section>
+        <p>
+          Servicio integral de motos, quads, UTV, ATV y motos de agua.
+          Diagnóstico por scanner, banco de prueba, inyección electrónica
+          y motores de competición.
+        </p>
 
-<section class="opiniones">
-  <h2>Opiniones</h2>
-  <a href="https://www.google.com/search?q=CR+POTENCIACION+Opiniones" target="_blank">
-    Ver todas en Google
-  </a>
-</section>
+        <div class="hero-buttons">
+          <a href="#turnos" class="btn primary">Solicitar turno</a>
+          <a href="https://instagram.com/crpotenciacion" target="_blank" class="btn secondary">@crpotenciacion</a>
+        </div>
+      </div>
 
-<section class="mapa">
-  <iframe src="https://www.google.com/maps?q=Av+Espinetto+355&output=embed"></iframe>
-</section>
+      <div class="hero-card">
+        <img src="logo.png" class="hero-logo" alt="CR Potenciación" />
+      </div>
+    </section>
 
-</body>
-</html>
+    <section id="servicios" class="section">
+      <p class="section-tag">Especialidad</p>
+      <h2>Servicios</h2>
+
+      <div class="grid">
+        <div class="card"><span>01</span>Servicio integral de motos</div>
+        <div class="card"><span>02</span>Diagnóstico por scanner</div>
+        <div class="card"><span>03</span>Banco de prueba</div>
+        <div class="card"><span>04</span>Inyección electrónica</div>
+        <div class="card"><span>05</span>Servicio Oficial Honda</div>
+        <div class="card"><span>06</span>Servicio Oficial CF Motos</div>
+        <div class="card"><span>07</span>Rectificación de cilindros</div>
+        <div class="card"><span>08</span>Reparación de tapas de cilindro</div>
+        <div class="card"><span>09</span>Motores de competición</div>
+        <div class="card"><span>10</span>UTV · ATV</div>
+        <div class="card"><span>11</span>Motos de agua</div>
+      </div>
+    </section>
+
+    <section id="ubicacion" class="info">
+      <div class="info-card">
+        <h3>Horarios</h3>
+        <p>Lunes a viernes<br>8:30 a 12:30 · 16:30 a 21:30</p>
+      </div>
+
+      <div class="info-card">
+        <h3>Ubicación</h3>
+        <p>Av. Agustín Espinetto 355<br>Santa Rosa, La Pampa</p>
+      </div>
+
+      <div class="info-card">
+        <h3>Instagram</h3>
+        <p>@crpotenciacion</p>
+      </div>
+    </section>
+
+    <section class="map-section">
+      <div class="map-box">
+        <div class="map-head">
+          <div>
+            <p class="section-tag">Cómo llegar</p>
+            <h2>Estamos en Santa Rosa</h2>
+          </div>
+
+          <a class="btn primary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Avenida+Agust%C3%ADn+Espinetto+355,+Santa+Rosa,+La+Pampa">
+            Abrir en Maps
+          </a>
+        </div>
+
+        <iframe
+          src="https://www.google.com/maps?q=Avenida+Agust%C3%ADn+Espinetto+355,+Santa+Rosa,+La+Pampa&output=embed"
+          loading="lazy">
+        </iframe>
+      </div>
+    </section>
+
+    <section id="opiniones" class="reviews">
+      <div>
+        <p class="section-tag">Opiniones</p>
+        <h2>Clientes reales</h2>
+        <p class="review-text">
+          Mirá las reseñas del taller en Google y conocé la experiencia de otros clientes.
+        </p>
+
+        <a class="btn primary" target="_blank" href="https://www.google.com/search?q=CR+POTENCIACION+Opiniones">
+          Ver opiniones en Google
+        </a>
+      </div>
+
+      <div class="review-cards">
+        <div class="review">★★★★★<br><strong>Excelente atención</strong></div>
+        <div class="review">★★★★★<br><strong>Muy buen servicio</strong></div>
+        <div class="review">★★★★★<br><strong>Trabajo profesional</strong></div>
+      </div>
+    </section>
+
+    <section id="turnos" class="booking">
+      <p class="section-tag">Reserva</p>
+      <h2>Solicitar turno</h2>
+      <p>Completá los datos y se envían directo por WhatsApp.</p>
+
+      <form id="turnoForm">
+        <input id="nombre" placeholder="Nombre y apellido" />
+        <input id="telefono" placeholder="Teléfono" />
+        <input id="vehiculo" placeholder="Vehículo" />
+
+        <select id="servicio">
+          <option value="">Seleccionar servicio</option>
+          <option>Servicio integral de motos</option>
+          <option>Diagnóstico por scanner</option>
+          <option>Banco de prueba</option>
+          <option>Inyección electrónica</option>
+          <option>Servicio Oficial Honda</option>
+          <option>Servicio Oficial CF Motos</option>
+          <option>Rectificación de cilindros</option>
+          <option>Reparación de tapas de cilindro</option>
+          <option>Motores de competición</option>
+          <option>UTV · ATV</option>
+          <option>Motos de agua</option>
+        </select>
+
+        <input id="fecha" type="date" />
+        <input id="horario" placeholder="Horario preferido" />
+        <textarea id="comentario" placeholder="Comentario"></textarea>
+
+        <button type="submit">Enviar por WhatsApp</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    CR Potenciación · Máxima potencia, máximo compromiso.
   </footer>
 
   <script src="script.js"></script>
