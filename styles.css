@@ -45,3 +45,11 @@
 .logo-img {
   height: 180px;
 }
+
+
+
+
+.logo-grande {
+  width: 250px;
+  filter: drop-shadow(0 0 20px rgba(255,0,0,0.5));
+}
