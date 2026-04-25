@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CR Potenciación | Turnos</title>
+  <meta name="description" content="CR Potenciación - Servicio integral de motos, diagnóstico por scanner, banco de prueba, inyección electrónica, UTV, ATV y motos de agua." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-glow one"></div>
+  <div class="bg-glow two"></div>
+
+  <header class="header">
+    <div class="brand">
+      <div class="logo"><span>C</span>R<span>›</span></div>
+      <div class="sublogo">POTENCIACIÓN</div>
+    </div>
+    <a class="whatsapp-top" href="https://wa.me/5492954602193" target="_blank">☎ WhatsApp</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <div class="badge">✓ Servicio Oficial Honda y CF Motos</div>
+        <h1>Sacá tu turno <span>online</span></h1>
+        <p>
+          Servicio integral de motos, UTV, ATV y motos de agua. Diagnóstico por scanner,
+          banco de prueba, inyección electrónica, rectificación, reparación de tapas y motores de competición.
+        </p>
+        <div class="buttons">
+          <a href="#turnos" class="btn primary">Solicitar turno</a>
+          <a href="#servicios" class="btn secondary">Ver servicios</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="logo-big">
+          <div class="logo huge"><span>C</span>R<span>›</span></div>
+          <div class="sublogo big">POTENCIACIÓN</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="section">
+      <p class="eyebrow">TALLER ESPECIALIZADO</p>
+      <h2>Servicios</h2>
+      <div class="services-grid">
+        <div class="service">🔧 <strong>Servicio integral de motos</strong></div>
+        <div class="service">⚡ <strong>Diagnóstico por scanner</strong></div>
+        <div class="service">🏁 <strong>Banco de prueba</strong></div>
+        <div class="service">⚙️ <strong>Inyección electrónica</strong></div>
+        <div class="service">✅ <strong>Servicio Oficial Honda</strong></div>
+        <div class="service">✅ <strong>Servicio Oficial CF Motos</strong></div>
+        <div class="service">🔩 <strong>Rectificación de cilindros</strong></div>
+        <div class="service">🛠️ <strong>Reparación de tapas de cilindro</strong></div>
+        <div class="service">🔥 <strong>Motores de competición</strong></div>
+        <div class="service">🏍️ <strong>Servicio especializado de UTV y ATV</strong></div>
+        <div class="service">🌊 <strong>Motos de agua</strong></div>
+      </div>
+    </section>
+
+    <section class="info">
+      <div class="info-card">
+        <div>🕒</div>
+        <h3>Horarios</h3>
+        <p>Lunes a viernes · 8:30 a 12:30 y 16:30 a 21:30</p>
+      </div>
+      <div class="info-card">
+        <div>📍</div>
+        <h3>Ubicación</h3>
+        <p>Avenida Agustín Espinetto 355, Santa Rosa, La Pampa</p>
+      </div>
+      <div class="info-card">
+        <div>☎</div>
+        <h3>Contacto</h3>
+        <p>WhatsApp: 2954 60-2193 · Instagram: @crpotenciación</p>
+      </div>
+    </section>
+
+    <section id="turnos" class="booking">
+      <div class="booking-card">
+        <p class="eyebrow">RESERVÁ TU LUGAR</p>
+        <h2>Solicitar turno</h2>
+        <p class="muted">Completá los datos y se enviarán directo por WhatsApp.</p>
+
+        <form id="turnoForm">
+          <div class="form-grid">
+            <label>Nombre y apellido
+              <input id="nombre" type="text" placeholder="Tu nombre" />
+            </label>
+            <label>Teléfono
+              <input id="telefono" type="text" placeholder="Tu teléfono" />
+            </label>
+            <label>Vehículo
+              <input id="vehiculo" type="text" placeholder="Ej: Honda XR, cuatri, UTV..." />
+            </label>
+            <label>Servicio
+              <select id="servicio">
+                <option value="">Seleccionar servicio</option>
+                <option>Servicio integral de motos</option>
+                <option>Diagnóstico por scanner</option>
+                <option>Banco de prueba</option>
+                <option>Inyección electrónica</option>
+                <option>Servicio Oficial Honda</option>
+                <option>Servicio Oficial CF Motos</option>
+                <option>Rectificación de cilindros</option>
+                <option>Reparación de tapas de cilindro</option>
+                <option>Motores de competición</option>
+                <option>Servicio especializado de UTV y ATV</option>
+                <option>Motos de agua</option>
+              </select>
+            </label>
+            <label>Fecha preferida
+              <input id="fecha" type="date" />
+            </label>
+            <label>Horario preferido
+              <input id="horario" type="text" placeholder="Ej: 16:30" />
+            </label>
+            <label class="full">Comentario
+              <textarea id="comentario" rows="4" placeholder="Contanos brevemente qué necesitás revisar o reparar..."></textarea>
+            </label>
+          </div>
+          <button type="submit" class="submit">➤ Enviar solicitud por WhatsApp</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    CR Potenciación · Máxima potencia, máximo compromiso.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
