@@ -461,3 +461,20 @@ body::after {
   0% { transform: translateX(0); }
   100% { transform: translateX(50%); }
 }
+/* 🔥 GLOW DINÁMICO FONDO */
+body::before {
+  content: "";
+  position: fixed;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(255,0,0,0.25) 0%, transparent 70%);
+  top: -150px;
+  right: -150px;
+  z-index: -1;
+  animation: glowMove 6s infinite alternate ease-in-out;
+}
+
+@keyframes glowMove {
+  0% { transform: translate(0,0); }
+  100% { transform: translate(-50px, 50px); }
+}
